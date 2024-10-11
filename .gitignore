@@ -1,0 +1,21 @@
+# Ignorar archivos ejecutables
+*.exe
+*.out
+
+# Ignorar archivos de depuración
+*.dSYM
+*.pdb
+
+# Ignorar archivos JSON
+*.json
+
+# Ignorar archivos de compilación de C++
+*.o
+*.obj
+*.so
+*.dll
+
+# Ignorar directorios de compilación
+/build/
+/bin/
+/obj/
