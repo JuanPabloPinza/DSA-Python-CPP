@@ -64,6 +64,7 @@ int getDecimalValue(ListNode *head) {
   for (int i = 0; i < track.size(); i++) {
 
     if (track[i]) {
+        // E.G. 1, 0, 1 -> [0],[1],[2] -> track.size() - i - 1
       result += pow(2, track.size() - i - 1);
     }
   }
